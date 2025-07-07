@@ -1,0 +1,44 @@
+.minimal-card {
+  background: #2c2a35;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  transition: all 0.3s ease;
+}
+
+.minimal-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(82, 79, 79, 0.753);
+}
+
+.experience-description {
+  text-align: justify;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.experience-position {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+}
+
+.experience-company {
+  font-size: 0.80rem;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.btn-link {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.btn-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}

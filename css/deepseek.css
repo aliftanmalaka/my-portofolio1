@@ -1,0 +1,63 @@
+/* Tambahkan ini ke salah satu file CSS Anda */
+
+.img-hover-effect {
+    transition: transform 0.3s ease-in-out; /* Transisi halus untuk efek */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Tambah bayangan untuk kedalaman */
+    border-radius: 8px; /* Sudut sedikit membulat agar lebih estetik */
+}
+
+.img-hover-effect:hover {
+    transform: scale(1.05); /* Memperbesar gambar 5% saat di-hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Bayangan lebih gelap saat di-hover */
+}
+
+/* Jika Anda ingin efek berkedip atau memudar, ini contoh lain: */
+/*
+.img-hover-effect {
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.img-hover-effect:hover {
+    opacity: 0.9;
+    transform: translateY(-5px); // Sedikit bergeser ke atas
+}
+*/
+
+/* Pastikan style untuk skills-list dan hobbies-list yang sebelumnya saya berikan juga tetap ada */
+.skills-section .section-subtitle,
+.hobbies-section .section-subtitle {
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.skills-list li,
+.hobbies-list li {
+  color: #e0e0e0;
+  margin-bottom: 0.7rem;
+  font-size: 1.05rem;
+  /* display: flex; align-items: center;  -> ini bisa dihapus jika tidak ada ikon */
+}
+
+/* Jika Anda ingin efek hover pada item daftar tanpa ikon */
+.skills-list li:hover,
+.hobbies-list li:hover {
+  color: #ffffff;
+  transform: translateX(5px);
+  transition: all 0.3s ease;
+}
+
+/* Pemisah antar bagian */
+.section-divider {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 2rem 0;
+}
+.text-link {
+  color: #ffffff; /* Warna default link */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.text-link:hover {
+  color: #f200ff; /* Warna saat hover, bisa diganti sesuai selera */
+}

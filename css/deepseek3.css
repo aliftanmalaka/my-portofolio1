@@ -1,0 +1,67 @@
+/* Projects Section Styles */
+.projects-section {
+    margin: 3rem 0;
+}
+
+.projects-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.project-card {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.project-card:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.project-title {
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 0.75rem;
+    font-size: 1.2rem;
+}
+
+.project-description {
+    color: #b7bcc2;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1.25rem;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.project-link:hover {
+    background-color: #f8f9fa;
+    color: #495057;
+    border-color: #ced4da;
+}
+
+.project-link i {
+    margin-right: 0.5rem;
+    font-size: 0.9em;
+}
