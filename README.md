@@ -1,3 +1,2 @@
 # My_portofolio1
-# My_portofolio1
-# my-portofolio1
+YOOO THIS IS MY PORTOFOLIO
